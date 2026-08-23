@@ -112,7 +112,7 @@ Real-time chat application designed for instant communication using WebSockets.
 <div align="center">
 
 <img src="https://github-stats-extended.vercel.app/api?username=Ayushsoni9125&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Ayush's GitHub Stats" height="165"/>
-<img src="https://streak-stats.demolab.com?user=Ayushsoni9125&theme=tokyonight&hide_border=true" alt="Ayush's GitHub Streak" height="165"/>
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=Ayushsoni9125&theme=tokyonight&hide_border=true" alt="Ayush's GitHub Streak" height="165"/>
 
 <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ayushsoni9125&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
 
@@ -124,7 +124,7 @@ Real-time chat application designed for instant communication using WebSockets.
 
 ## 🐍 Contribution Snake
 
-> Requires the [github-contribution-grid-snake](https://github.com/Platane/snk) GitHub Actions workflow to be set up in this repository, generating the SVGs below.
+
 
 <div align="center">
 
