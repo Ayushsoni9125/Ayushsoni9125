@@ -111,10 +111,10 @@ Real-time chat application designed for instant communication using WebSockets.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ayushsoni9125&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" alt="Ayush's GitHub Stats" height="165"/>
+<img src="https://github-stats-extended.vercel.app/api?username=Ayushsoni9125&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Ayush's GitHub Stats" height="165"/>
 <img src="https://streak-stats.demolab.com?user=Ayushsoni9125&theme=tokyonight&hide_border=true" alt="Ayush's GitHub Streak" height="165"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushsoni9125&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="Top Languages" height="165"/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ayushsoni9125&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayushsoni9125&theme=tokyo-night&hide_border=true" alt="Contribution Activity" width="90%"/>
 
