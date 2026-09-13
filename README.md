@@ -116,8 +116,7 @@ Real-time chat application designed for instant communication using WebSockets.
 
 <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ayushsoni9125&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayushsoni9125&theme=tokyo-night&hide_border=true" alt="Contribution Activity" width="90%"/>
-
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ayushsoni9125&theme=graywhite)
 </div>
 
 ---
