@@ -24,41 +24,41 @@
 
 ## 🛠️ Tech Stack
 
-**Languages**
+### Languages
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
 
-**Frontend**
+### Frontend
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs\&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
 
-**Backend**
+### Backend
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge\&logo=express\&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-02569B?style=for-the-badge\&logo=fastapi\&logoColor=white)
 
-**Databases**
+### Databases
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge\&logo=mongodb\&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)
 
-**Authentication**
+### Authentication
 
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge\&logo=jsonwebtokens\&logoColor=white)
 ![NextAuth](https://img.shields.io/badge/NextAuth.js-000000?style=for-the-badge\&logo=auth0\&logoColor=white)
 ![bcrypt](https://img.shields.io/badge/bcrypt-338033?style=for-the-badge\&logo=letsencrypt\&logoColor=white)
 
-**Real-time**
+### Real-time
 
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge\&logo=socketdotio\&logoColor=white)
 
-**Tools & Deployment**
+### Tools & Deployment
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
@@ -76,10 +76,11 @@ AI-powered government scheme discovery platform that helps users find and unders
 
 **Tech Stack:** Next.js 16 · TypeScript · MongoDB · NextAuth · Tailwind CSS · Zod
 
-**Key Features:** Scheme discovery · Search & filtering · Auth & authorization · Admin dashboard · Role-based access control · MongoDB-backed APIs · Responsive UI
+**Key Features:** Scheme discovery · Search & filtering · Authentication & authorization · Admin dashboard · Role-based access control · MongoDB-backed APIs · Responsive UI
 
 🔗 **Live Demo:** [yojna-saarthi.vercel.app](https://yojna-saarthi.vercel.app/)
-🔗 **GitHub:** https://github.com/Ayushsoni9125/yojnaSaarthi
+
+🔗 **GitHub:** [github.com/Ayushsoni9125/yojnaSaarthi](https://github.com/Ayushsoni9125/yojnaSaarthi)
 
 ---
 
@@ -89,11 +90,13 @@ Full-stack MERN e-commerce platform with separate user and admin functionality.
 
 **Tech Stack:** MongoDB · Express.js · React.js · Node.js · JWT · Tailwind CSS
 
-**Key Features:** JWT auth · User/Admin roles · Product search & filtering · Cart & checkout · User profile · Admin dashboard · Product management · Dark/Light mode · Pagination · RESTful APIs
+**Key Features:** JWT authentication · User/Admin roles · Product search & filtering · Cart & checkout · User profile · Admin dashboard · Product management · Dark/Light mode · Pagination · RESTful APIs
 
 🔗 **Live Demo:** [shop-now-frontend.vercel.app](https://shop-now-frontend.vercel.app/)
+
 🔗 **Backend API:** [shop-now-backend.onrender.com](https://shop-now-backend.onrender.com/)
-🔗 **GitHub:** https://github.com/Ayushsoni9125/Shop-Now
+
+🔗 **GitHub:** [github.com/Ayushsoni9125/Shop-Now](https://github.com/Ayushsoni9125/Shop-Now)
 
 ---
 
@@ -106,7 +109,8 @@ Real-time chat application designed for instant communication using WebSockets.
 **Key Features:** Real-time messaging · Socket.io communication · Authentication · Online/offline status · Persistent chat data · REST APIs · Responsive UI
 
 🔗 **Live Demo:** [connectify-ayush.vercel.app](https://connectify-ayush.vercel.app/login)
-🔗 **GitHub:** https://github.com/Ayushsoni9125/Connectify
+
+🔗 **GitHub:** [github.com/Ayushsoni9125/Connectify](https://github.com/Ayushsoni9125/Connectify)
 
 ---
 
@@ -114,27 +118,25 @@ Real-time chat application designed for instant communication using WebSockets.
 
 <div align="center">
 
-<img src="https://github-stats-extended.vercel.app/api?username=Ayushsoni9125&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Ayush's GitHub Stats" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Ayushsoni9125&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Ayush's GitHub Stats" height="165"/>
 
-<img src="https://github-readme-streak-stats-eight.vercel.app/?user=Ayushsoni9125&theme=tokyonight&hide_border=true" alt="Ayush's GitHub Streak" height="165"/>
-
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ayushsoni9125&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ayushsoni9125&theme=tokyonight&hide_border=true" alt="Ayush's GitHub Streak" height="165"/>
 
 </div>
 
+<br/>
+
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ayushsoni9125&theme=graywhite" alt="GitHub Profile Details"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushsoni9125&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
 
 </div>
 
----
-
-## 📈 Contribution Streak Graph
+<br/>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayushsoni9125&theme=tokyo-night&hide_border=true&area=true" alt="Ayush's Contribution Graph" width="95%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ayushsoni9125&theme=tokyonight" alt="Ayush's GitHub Profile Details" width="95%"/>
 
 </div>
 
@@ -145,9 +147,15 @@ Real-time chat application designed for instant communication using WebSockets.
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake.svg">
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake.svg">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake-dark.svg">
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake.svg">
+  <img
+    alt="GitHub Contribution Snake"
+    src="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake.svg">
 </picture>
 
 </div>
