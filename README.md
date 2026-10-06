@@ -108,9 +108,26 @@
 
 <div align="center">
 
-<img src="./project-universe.svg?v=1" alt="3D Project Universe" width="100%" />
+<table>
+<tr>
+<td align="center" width="50%">
+<img src="./rate-limiter-3d.svg?v=1" alt="Distributed Rate Limiter 3D" width="100%" />
+</td>
+<td align="center" width="50%">
+<img src="./yojana-saarthi-3d.svg?v=1" alt="YojanaSaarthi 3D" width="100%" />
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<img src="./connectify-3d.svg?v=1" alt="Connectify 3D" width="100%" />
+</td>
+<td align="center" width="50%">
+<img src="./shopnow-3d.svg?v=1" alt="ShopNow 3D" width="100%" />
+</td>
+</tr>
+</table>
 
-<sub>My projects as a 3D system landscape — each block represents a different product or engineering focus.</sub>
+<sub>Four projects. Four engineering directions. One 3D project wall.</sub>
 
 </div>
 
