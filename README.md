@@ -114,11 +114,8 @@ Real-time chat application using WebSockets for instant messaging, online/offlin
 
 ## 📈 Contribution Activity
 
-<div align="center">
-
-<img src="https://ghchart.rshah.org/Ayushsoni9125" alt="Ayushsoni9125 GitHub Contribution Graph" width="95%" />
-
-</div>
+<!-- BEGIN ACTIVITY-GRAPH -->
+<!-- END ACTIVITY-GRAPH -->
 ---
 
 ## 🐍 Contribution Graph
