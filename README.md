@@ -21,26 +21,37 @@ I'm particularly interested in **backend engineering, distributed systems, datab
 
 ## 🛠️ Tech Stack
 
-**Languages**
+### Languages
 
-`JavaScript` `TypeScript` `C++` `Python`
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,cpp,python" height="45" />
+</p>
 
-**Frontend**
+### Frontend
 
-`React` `Next.js` `Tailwind CSS`
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" height="45" />
+</p>
 
-**Backend**
+### Backend
 
-`Node.js` `Express.js` `REST APIs` `Socket.io`
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express" height="45" />
+  <img src="https://img.shields.io/badge/REST%20API-02569B?style=for-the-badge&logo=fastapi&logoColor=white" height="45" />
+  <img src="https://skillicons.dev/icons?i=socketio" height="45" />
+</p>
 
-**Databases**
+### Databases
 
-`PostgreSQL` `MongoDB` `Redis`
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis" height="45" />
+</p>
 
-**Cloud & DevOps**
+### Tools
 
-`AWS` `Terraform` `Git` `GitHub` `Postman`
-
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,postman" height="45" />
+</p>
 ---
 
 ## ⭐ Featured Projects
