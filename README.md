@@ -166,7 +166,7 @@ Real-time chat application with instant messaging, online/offline presence and p
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contribution Graph" width="100%" />
+<img src="./profile-3d-contrib/profile-night-view.svg" alt="3D GitHub Contribution Graph" width="100%" />
 
 <br/>
 
