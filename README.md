@@ -1,114 +1,180 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Ayush+Soni+%F0%9F%91%8B;Backend+%26+Full-Stack+Developer;Building+Scalable+Web+Systems;Node.js+%7C+TypeScript+%7C+React;Backend+%7C+Distributed+Systems" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=900&color=58A6FF&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Ayush+Soni+%F0%9F%91%8B;Backend+%26+Full-Stack+Developer;I+build+scalable+backend+systems;Distributed+Systems+%7C+Real-Time+%7C+AI;Turning+ideas+into+working+products" alt="Typing SVG" />
+
+<br/>
+
+<a href="https://github.com/Ayushsoni9125">
+<img src="https://img.shields.io/badge/GitHub-AyushSoni9125-181717?style=for-the-badge&logo=github" />
+</a>
+<a href="https://www.linkedin.com/in/ayushsoni2005/">
+<img src="https://img.shields.io/badge/LinkedIn-Ayush_Soni-0A66C2?style=for-the-badge&logo=linkedin" />
+</a>
+<a href="mailto:ayushsoni2005@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
 
 </div>
 
-### Backend & Full-Stack Developer
+---
 
-I build **scalable web applications, REST APIs, real-time systems, and cloud infrastructure**.
+<div align="center">
 
-I'm particularly interested in **backend engineering, distributed systems, databases, cloud, and AI-powered applications**.
+### ⚡ Backend Engineer • Full-Stack Developer • Problem Solver
 
-<p align="left"><a href="https://github.com/Ayushsoni9125"><img src="https://img.shields.io/github/followers/Ayushsoni9125?label=Followers&style=flat-square" /></a> <a href="https://github.com/Ayushsoni9125?tab=repositories"><img src="https://img.shields.io/github/stars/Ayushsoni9125?label=Stars&style=flat-square" /></a></p>
+**I build APIs, real-time applications, distributed systems, and AI-powered products.**
+
+*Focused on clean architecture, scalable systems, and shipping things that actually work.*
+
+</div>
 
 ---
 
-## 🚀 What I Build
+## 🧠 What I Do
 
-- 🔐 **Backend systems** — REST APIs, authentication, authorization & API security
-- ⚡ **Real-time applications** — WebSockets, Socket.io & live communication
-- 🧩 **Distributed systems** — rate limiting, caching & scalable backend architecture
-- 🤖 **AI-powered applications** — computer vision & intelligent web platforms
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔐 Backend Engineering
+- REST APIs & API architecture
+- Authentication & authorization
+- JWT, RBAC & API security
+- PostgreSQL, MongoDB & Redis
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ Distributed & Real-Time
+- Distributed rate limiting
+- Redis-based systems
+- WebSockets & Socket.io
+- Scalable backend architecture
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎨 Full-Stack Development
+- React & Next.js
+- TypeScript
+- Tailwind CSS
+- End-to-end product development
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 AI-Powered Products
+- AI integrations
+- Computer vision
+- Intelligent web platforms
+- Automation & smart workflows
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Languages
+<div align="center">
 
-<p>
-  <img src="https://skillicons.dev/icons?i=js,ts,cpp,python" height="45" />
-</p>
+<img src="https://skillicons.dev/icons?i=js,ts,cpp,python,react,nextjs,tailwind,nodejs,express,postgres,mongodb,redis,git,github,postman&perline=8" />
 
-### Frontend
+</div>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" height="45" />
-</p>
-
-### Backend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express" height="45" />
-  <img src="https://img.shields.io/badge/REST%20API-02569B?style=for-the-badge&logo=fastapi&logoColor=white" height="45" />
-  <img src="https://skillicons.dev/icons?i=socketio" height="45" />
-</p>
-
-### Databases
-
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis" height="45" />
-</p>
-
-### Tools
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,postman" height="45" />
-</p>
 ---
 
-## ⭐ Featured Projects
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### 🔥 Distributed Rate Limiter
-A backend-focused distributed rate-limiting system designed to protect APIs and control request traffic across multiple application instances.
 
-**Focus:** Distributed Systems · Redis · Backend Architecture · API Security
+A distributed backend system that protects APIs from excessive traffic while maintaining request limits across multiple application instances.
 
-🔗 [Repository](https://github.com/Ayushsoni9125/Distributed-Rate-Limiter)
+**Redis · Node.js · Distributed Systems · API Security**
+
+<a href="https://github.com/Ayushsoni9125/Distributed-Rate-Limiter">
+<img src="https://img.shields.io/badge/VIEW_REPOSITORY-58A6FF?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+<td width="50%" valign="top">
 
 ### 🏛️ YojanaSaarthi
-AI-powered government scheme discovery platform that helps users find relevant government schemes through search, filtering and personalized access.
 
-**Stack:** Next.js · TypeScript · MongoDB · NextAuth · Tailwind CSS · Zod
+AI-powered government scheme discovery platform designed to help users discover relevant schemes through search, filtering and personalized access.
 
-🔗 [Live Demo](https://yojana-saarthi.vercel.app/) · [Repository](https://github.com/Ayushsoni9125/yojnaSaarthi)
+**Next.js · TypeScript · MongoDB · NextAuth**
+
+<a href="https://yojana-saarthi.vercel.app/">
+<img src="https://img.shields.io/badge/LIVE_DEMO-2EA44F?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+
+<a href="https://github.com/Ayushsoni9125/yojnaSaarthi">
+<img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 🛒 ShopNow
+
 Full-stack MERN e-commerce platform with authentication, role-based access, product management, search, filtering, cart and admin functionality.
 
-**Stack:** MongoDB · Express.js · React · Node.js · JWT · Tailwind CSS
+**MongoDB · Express · React · Node.js · JWT**
 
-🔗 [Live Demo](https://shop-now-frontend.vercel.app/) · [Repository](https://github.com/Ayushsoni9125/Shop-Now)
+<a href="https://shop-now-frontend.vercel.app/">
+<img src="https://img.shields.io/badge/LIVE_DEMO-2EA44F?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+
+<a href="https://github.com/Ayushsoni9125/Shop-Now">
+<img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+<td width="50%" valign="top">
 
 ### 💬 Connectify
-Real-time chat application using WebSockets for instant messaging, online/offline presence and persistent conversations.
 
-**Stack:** React · Node.js · Express · MongoDB · Socket.io
+Real-time chat application with instant messaging, online/offline presence and persistent conversations powered by WebSockets.
 
-🔗 [Live Demo](https://connectify-ayush.vercel.app/login) · [Repository](https://github.com/Ayushsoni9125/Connectify)
+**React · Node.js · Express · MongoDB · Socket.io**
+
+<a href="https://connectify-ayush.vercel.app/login">
+<img src="https://img.shields.io/badge/LIVE_DEMO-2EA44F?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+
+<a href="https://github.com/Ayushsoni9125/Connectify">
+<img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📊 GitHub Activity
+## 📊 GitHub in Motion
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ayushsoni9125&show_icons=true&hide_border=true&include_all_commits=true&count_private=false&rank_icon=github&theme=tokyonight" height="170" />
+<img src="https://github-readme-stats.vercel.app/api?username=Ayushsoni9125&show_icons=true&hide_border=true&include_all_commits=true&count_private=false&rank_icon=github&theme=tokyonight" height="165" />
 
-<img src="https://streak-stats.demolab.com/?user=Ayushsoni9125&theme=tokyonight&hide_border=true" height="170" />
-
-</div>
+<img src="https://streak-stats.demolab.com/?user=Ayushsoni9125&theme=tokyonight&hide_border=true" height="165" />
 
 <br/>
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushsoni9125&layout=compact&hide_border=true&langs_count=8&count_private=false&theme=tokyonight" height="170" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushsoni9125&layout=compact&hide_border=true&langs_count=8&count_private=false&theme=tokyonight" height="165" />
 
 </div>
----
-
 
 ---
 
@@ -120,22 +186,41 @@ Real-time chat application using WebSockets for instant messaging, online/offlin
   <img src="activity-graph.svg" alt="Activity Graph" width="100%">
 </picture>
 <!-- END ACTIVITY-GRAPH -->
+
 ---
 
-## 🐍 Contribution Graph
+## 🐍 Commit by Commit
 
 <div align="center">
+
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake-dark.svg">
 <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake.svg">
 <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake.svg">
 </picture>
+
 </div>
 
 ---
 
-## 📫 Let's Connect
+<div align="center">
 
-<p align="left"><a href="https://www.linkedin.com/in/ayushsoni2005/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://github.com/Ayushsoni9125"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a></p>
+### 💬 Let's Build Something Great
 
-> **Building backend systems, shipping full-stack products, and learning something new every day.** 🚀
+<a href="https://www.linkedin.com/in/ayushsoni2005/">
+<img src="https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="https://github.com/Ayushsoni9125">
+<img src="https://img.shields.io/badge/Follow_My_Work-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Ayushsoni9125&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" />
+
+<br/><br/>
+
+<i>Building backend systems. Shipping full-stack products. Learning every day.</i>
+
+</div>
