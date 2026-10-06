@@ -1,84 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#111827"/></linearGradient>
-  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#60a5fa"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
-  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c084fc"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
-  <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4ade80"/><stop offset="1" stop-color="#16a34a"/></linearGradient>
-  <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fb923c"/><stop offset="1" stop-color="#ea580c"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <style>
-    .f1{animation:f1 4.8s ease-in-out infinite}.f2{animation:f2 5.4s ease-in-out infinite}.f3{animation:f3 5s ease-in-out infinite}.f4{animation:f4 5.8s ease-in-out infinite}
-    @keyframes f1{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
-    @keyframes f2{0%,100%{transform:translateY(-5px)}50%{transform:translateY(8px)}}
-    @keyframes f3{0%,100%{transform:translateY(7px)}50%{transform:translateY(-7px)}}
-    @keyframes f4{0%,100%{transform:translateY(-3px)}50%{transform:translateY(11px)}}
-  </style>
+  <linearGradient id="b1"><stop stop-color="#60a5fa"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+  <linearGradient id="b2"><stop stop-color="#c084fc"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+  <linearGradient id="b3"><stop stop-color="#4ade80"/><stop offset="1" stop-color="#16a34a"/></linearGradient>
+  <linearGradient id="b4"><stop stop-color="#fb923c"/><stop offset="1" stop-color="#ea580c"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 
 <rect width="1200" height="430" rx="24" fill="url(#bg)"/>
-<g opacity=".18" stroke="#58a6ff" fill="none">
-  <path d="M55 350 H1145"/><path d="M120 390 H1080"/>
-  <path d="M130 80 L55 350"/><path d="M1070 80 L1145 350"/>
+<g opacity=".16" stroke="#58a6ff" fill="none">
+  <path d="M55 350H1145"/><path d="M120 390H1080"/>
+  <path d="M130 80L55 350"/><path d="M1070 80L1145 350"/>
 </g>
 
 <g font-family="Arial,Helvetica,sans-serif">
-  <text x="600" y="42" text-anchor="middle" fill="#e6edf3" font-size="22" font-weight="700">PROJECT UNIVERSE</text>
-  <text x="600" y="68" text-anchor="middle" fill="#8b949e" font-size="13">A 3D view of the systems I've built</text>
+<text x="600" y="42" text-anchor="middle" fill="#e6edf3" font-size="22" font-weight="700">PROJECT UNIVERSE</text>
+<text x="600" y="68" text-anchor="middle" fill="#8b949e" font-size="13">A 3D view of the systems I've built</text>
 
-  <!-- RATE LIMITER -->
-  <g transform="translate(35 105)">
-    <g class="f1">
-      <ellipse cx="130" cy="225" rx="120" ry="17" fill="#58a6ff" opacity=".16" filter="url(#glow)"/>
-      <path d="M10 55 L130 5 L250 55 L130 105 Z" fill="url(#blue)"/>
-      <path d="M10 55 L130 105 L130 220 L10 170 Z" fill="#1d4ed8"/>
-      <path d="M130 105 L250 55 L250 170 L130 220 Z" fill="#1e40af"/>
-      <text x="130" y="61" text-anchor="middle" fill="white" font-size="16" font-weight="700">RATE LIMITER</text>
-      <text x="130" y="85" text-anchor="middle" fill="#dbeafe" font-size="10">Redis • Node.js • APIs</text>
-      <text x="62" y="137" fill="#bfdbfe" font-size="9">DISTRIBUTED</text>
-      <text x="158" y="153" fill="#bfdbfe" font-size="9">SCALABLE</text>
-    </g>
-  </g>
+<!-- RATE LIMITER -->
+<ellipse cx="170" cy="342" rx="120" ry="15" fill="#58a6ff" opacity=".14" filter="url(#glow)"/>
+<path d="M50 155L170 105L290 155L170 205Z" fill="url(#b1)"/>
+<path d="M50 155L170 205V320L50 270Z" fill="#1d4ed8"/>
+<path d="M170 205L290 155V270L170 320Z" fill="#1e40af"/>
+<text x="170" y="162" text-anchor="middle" fill="white" font-size="16" font-weight="700">RATE LIMITER</text>
+<text x="170" y="184" text-anchor="middle" fill="#dbeafe" font-size="10">Redis • Node.js • APIs</text>
+<text x="105" y="235" fill="#bfdbfe" font-size="9">DISTRIBUTED</text>
+<text x="195" y="250" fill="#bfdbfe" font-size="9">SCALABLE</text>
 
-  <!-- YOJANASAARTHI -->
-  <g transform="translate(325 125)">
-    <g class="f2">
-      <ellipse cx="130" cy="205" rx="120" ry="17" fill="#a78bfa" opacity=".16" filter="url(#glow)"/>
-      <path d="M10 50 L130 0 L250 50 L130 100 Z" fill="url(#purple)"/>
-      <path d="M10 50 L130 100 L130 200 L10 150 Z" fill="#6d28d9"/>
-      <path d="M130 100 L250 50 L250 150 L130 200 Z" fill="#5b21b6"/>
-      <text x="130" y="56" text-anchor="middle" fill="white" font-size="15" font-weight="700">YOJANASAARTHI</text>
-      <text x="130" y="79" text-anchor="middle" fill="#ede9fe" font-size="10">Next.js • AI • MongoDB</text>
-      <text x="58" y="126" fill="#ddd6fe" font-size="9">AI POWERED</text>
-      <text x="159" y="142" fill="#ddd6fe" font-size="9">WEB APP</text>
-    </g>
-  </g>
+<!-- YOJANASAARTHI -->
+<ellipse cx="460" cy="342" rx="120" ry="15" fill="#a78bfa" opacity=".14" filter="url(#glow)"/>
+<path d="M340 155L460 105L580 155L460 205Z" fill="url(#b2)"/>
+<path d="M340 155L460 205V320L340 270Z" fill="#6d28d9"/>
+<path d="M460 205L580 155V270L460 320Z" fill="#5b21b6"/>
+<text x="460" y="162" text-anchor="middle" fill="white" font-size="15" font-weight="700">YOJANASAARTHI</text>
+<text x="460" y="184" text-anchor="middle" fill="#ede9fe" font-size="10">Next.js • AI • MongoDB</text>
+<text x="395" y="235" fill="#ddd6fe" font-size="9">AI POWERED</text>
+<text x="490" y="250" fill="#ddd6fe" font-size="9">WEB APP</text>
 
-  <!-- CONNECTIFY -->
-  <g transform="translate(615 105)">
-    <g class="f3">
-      <ellipse cx="130" cy="225" rx="120" ry="17" fill="#4ade80" opacity=".16" filter="url(#glow)"/>
-      <path d="M10 55 L130 5 L250 55 L130 105 Z" fill="url(#green)"/>
-      <path d="M10 55 L130 105 L130 220 L10 170 Z" fill="#15803d"/>
-      <path d="M130 105 L250 55 L250 170 L130 220 Z" fill="#166534"/>
-      <text x="130" y="61" text-anchor="middle" fill="white" font-size="16" font-weight="700">CONNECTIFY</text>
-      <text x="130" y="85" text-anchor="middle" fill="#dcfce7" font-size="10">Socket.io • React • Node</text>
-      <text x="62" y="137" fill="#bbf7d0" font-size="9">REAL-TIME</text>
-      <text x="158" y="153" fill="#bbf7d0" font-size="9">WEBSOCKETS</text>
-    </g>
-  </g>
+<!-- CONNECTIFY -->
+<ellipse cx="750" cy="342" rx="120" ry="15" fill="#4ade80" opacity=".14" filter="url(#glow)"/>
+<path d="M630 155L750 105L870 155L750 205Z" fill="url(#b3)"/>
+<path d="M630 155L750 205V320L630 270Z" fill="#15803d"/>
+<path d="M750 205L870 155V270L750 320Z" fill="#166534"/>
+<text x="750" y="162" text-anchor="middle" fill="white" font-size="16" font-weight="700">CONNECTIFY</text>
+<text x="750" y="184" text-anchor="middle" fill="#dcfce7" font-size="10">Socket.io • React • Node</text>
+<text x="685" y="235" fill="#bbf7d0" font-size="9">REAL-TIME</text>
+<text x="775" y="250" fill="#bbf7d0" font-size="9">WEBSOCKETS</text>
 
-  <!-- SHOPNOW -->
-  <g transform="translate(905 125)">
-    <g class="f4">
-      <ellipse cx="130" cy="205" rx="120" ry="17" fill="#fb923c" opacity=".16" filter="url(#glow)"/>
-      <path d="M10 50 L130 0 L250 50 L130 100 Z" fill="url(#orange)"/>
-      <path d="M10 50 L130 100 L130 200 L10 150 Z" fill="#c2410c"/>
-      <path d="M130 100 L250 50 L250 150 L130 200 Z" fill="#9a3412"/>
-      <text x="130" y="56" text-anchor="middle" fill="white" font-size="16" font-weight="700">SHOPNOW</text>
-      <text x="130" y="79" text-anchor="middle" fill="#ffedd5" font-size="10">MERN • JWT • RBAC</text>
-      <text x="62" y="126" fill="#fed7aa" font-size="9">E-COMMERCE</text>
-      <text x="158" y="142" fill="#fed7aa" font-size="9">FULL STACK</text>
-    </g>
-  </g>
+<!-- SHOPNOW -->
+<ellipse cx="1040" cy="342" rx="120" ry="15" fill="#fb923c" opacity=".14" filter="url(#glow)"/>
+<path d="M920 155L1040 105L1160 155L1040 205Z" fill="url(#b4)"/>
+<path d="M920 155L1040 205V320L920 270Z" fill="#c2410c"/>
+<path d="M1040 205L1160 155V270L1040 320Z" fill="#9a3412"/>
+<text x="1040" y="162" text-anchor="middle" fill="white" font-size="16" font-weight="700">SHOPNOW</text>
+<text x="1040" y="184" text-anchor="middle" fill="#ffedd5" font-size="10">MERN • JWT • RBAC</text>
+<text x="975" y="235" fill="#fed7aa" font-size="9">E-COMMERCE</text>
+<text x="1065" y="250" fill="#fed7aa" font-size="9">FULL STACK</text>
+
+<text x="600" y="405" text-anchor="middle" fill="#8b949e" font-size="12">4 projects • 4 engineering directions • 1 developer</text>
 </g>
 </svg>
