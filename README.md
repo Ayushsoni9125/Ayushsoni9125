@@ -104,6 +104,30 @@
 
 ---
 
+## 🧊 3D Project Universe
+
+<div align="center">
+
+<img src="./project-universe.svg?v=1" alt="3D Project Universe" width="100%" />
+
+<sub>My projects as a 3D system landscape — each block represents a different product or engineering focus.</sub>
+
+</div>
+
+---
+
+## 🏗️ System Architecture
+
+<div align="center">
+
+<img src="./rate-limiter-architecture.svg?v=1" alt="3D Distributed Rate Limiter Architecture" width="100%" />
+
+<sub>A visual representation of how my Distributed Rate Limiter handles requests across API instances using shared Redis state.</sub>
+
+</div>
+
+---
+
 ## 🚀 Featured Projects
 
 <table>
