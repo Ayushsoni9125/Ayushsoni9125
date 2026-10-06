@@ -212,10 +212,7 @@ Real-time chat application with instant messaging, online/offline presence and p
 ## 📈 Contribution Activity
 
 <!-- BEGIN ACTIVITY-GRAPH -->
-<picture>
-  <source media="(max-width: 767px)" srcset="activity-graph-mobile.svg">
-  <img src="activity-graph.svg" alt="GitHub Contribution Activity" width="100%">
-</picture>
+<img src="activity-graph.gif?v=3" alt="3D animated GitHub Contribution Activity" width="100%">
 <!-- END ACTIVITY-GRAPH -->
 
 ---
