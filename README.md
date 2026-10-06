@@ -1,177 +1,136 @@
-<div align="center">
+# Hi, I'm Ayush Soni 👋
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+I'm+Ayush+Soni;Full-Stack+Developer;Backend+Developer;Node.js+%7C+Express.js+%7C+MongoDB;React.js+%7C+Next.js+%7C+PostgreSQL" alt="Typing SVG" />
+### Backend & Full-Stack Developer
 
-</div>
+I build **scalable web applications, REST APIs, real-time systems, and cloud infrastructure**.
 
-<div align="center">
+I'm particularly interested in **backend engineering, distributed systems, databases, cloud, and AI-powered applications**.
 
-[![GitHub](https://img.shields.io/badge/GitHub-Ayushsoni9125-181717?style=for-the-badge&logo=github)](https://github.com/Ayushsoni9125)
-
-</div>
+<p align="left"><a href="https://github.com/Ayushsoni9125"><img src="https://img.shields.io/github/followers/Ayushsoni9125?label=Followers&style=flat-square" /></a> <a href="https://github.com/Ayushsoni9125?tab=repositories"><img src="https://img.shields.io/github/stars/Ayushsoni9125?label=Stars&style=flat-square" /></a></p>
 
 ---
 
-## 📌 About Me
+## 🚀 What I Build
 
-- 🚀 Full-Stack Developer & Backend Enthusiast
-- 💻 Strong focus on **Node.js, Express.js, MongoDB, PostgreSQL, React.js and Next.js**
-- 🔐 Interested in authentication, REST APIs, databases, real-time applications and backend architecture
-- 🌱 Currently improving my skills in **TypeScript, Next.js, Cloud & DevOps**
-- 🎯 Looking for opportunities as a **Backend / Full-Stack Developer**
+- 🔐 **Backend systems** — REST APIs, authentication, authorization & API security
+- ⚡ **Real-time applications** — WebSockets, Socket.io & live communication
+- 🧩 **Distributed systems** — rate limiting, caching & scalable backend architecture
+- ☁️ **Cloud & DevOps** — AWS, Terraform & deployment workflows
+- 🤖 **AI-powered applications** — computer vision & intelligent web platforms
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Languages
+**Languages**
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+`JavaScript` `TypeScript` `C++` `Python`
 
-### Frontend
+**Frontend**
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+`React` `Next.js` `Tailwind CSS`
 
-### Backend
+**Backend**
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-02569B?style=for-the-badge&logo=fastapi&logoColor=white)
+`Node.js` `Express.js` `REST APIs` `Socket.io`
 
-### Databases
+**Databases**
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+`PostgreSQL` `MongoDB` `Redis`
 
-### Authentication
+**Cloud & DevOps**
 
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![NextAuth](https://img.shields.io/badge/NextAuth.js-000000?style=for-the-badge&logo=auth0&logoColor=white)
-![bcrypt](https://img.shields.io/badge/bcrypt-338033?style=for-the-badge&logo=letsencrypt&logoColor=white)
-
-### Real-time
-
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
-
-### Tools & Deployment
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+`AWS` `Terraform` `Git` `GitHub` `Postman`
 
 ---
 
-## 🚀 Featured Projects
+## ⭐ Featured Projects
 
-### 🔹 [YojanaSaarthi](https://github.com/Ayushsoni9125/yojnaSaarthi)
+### 🔥 Distributed Rate Limiter
+A backend-focused distributed rate-limiting system designed to protect APIs and control request traffic across multiple application instances.
 
-AI-powered government scheme discovery platform that helps users find and understand relevant government schemes.
+**Focus:** Distributed Systems · Redis · Backend Architecture · API Security
 
-**Tech Stack:** Next.js 16 · TypeScript · MongoDB · NextAuth · Tailwind CSS · Zod
+🔗 [Repository](https://github.com/Ayushsoni9125/Distributed-Rate-Limiter)
 
-**Key Features:** Scheme discovery · Search & filtering · Authentication & authorization · Admin dashboard · Role-based access control · MongoDB-backed APIs · Responsive UI
+### 🤖 Urban Intelligence Platform
+AI-powered urban intelligence prototype using computer vision to analyze transport video streams and identify road and traffic-related hazards.
 
-🔗 **Live Demo:** [yojna-saarthi.vercel.app](https://yojna-saarthi.vercel.app/)
+**Focus:** Computer Vision · YOLO · Python · AI · Urban Analytics
 
-🔗 **GitHub:** [github.com/Ayushsoni9125/yojnaSaarthi](https://github.com/Ayushsoni9125/yojnaSaarthi)
+🔗 [Repository](https://github.com/Ayushsoni9125/urban-intel-prototype)
 
----
+### 🏛️ YojanaSaarthi
+AI-powered government scheme discovery platform that helps users find relevant government schemes through search, filtering and personalized access.
 
-### 🔹 [ShopNow](https://github.com/Ayushsoni9125/Shop-Now)
+**Stack:** Next.js · TypeScript · MongoDB · NextAuth · Tailwind CSS · Zod
 
-Full-stack MERN e-commerce platform with separate user and admin functionality.
+🔗 [Live Demo](https://yojana-saarthi.vercel.app/) · [Repository](https://github.com/Ayushsoni9125/yojnaSaarthi)
 
-**Tech Stack:** MongoDB · Express.js · React.js · Node.js · JWT · Tailwind CSS
+### 🛒 ShopNow
+Full-stack MERN e-commerce platform with authentication, role-based access, product management, search, filtering, cart and admin functionality.
 
-**Key Features:** JWT authentication · User/Admin roles · Product search & filtering · Cart & checkout · User profile · Admin dashboard · Product management · Dark/Light mode · Pagination · RESTful APIs
+**Stack:** MongoDB · Express.js · React · Node.js · JWT · Tailwind CSS
 
-🔗 **Live Demo:** [shop-now-frontend.vercel.app](https://shop-now-frontend.vercel.app/)
+🔗 [Live Demo](https://shop-now-frontend.vercel.app/) · [Repository](https://github.com/Ayushsoni9125/Shop-Now)
 
-🔗 **Backend API:** [shop-now-backend.onrender.com](https://shop-now-backend.onrender.com/)
+### 💬 Connectify
+Real-time chat application using WebSockets for instant messaging, online/offline presence and persistent conversations.
 
-🔗 **GitHub:** [github.com/Ayushsoni9125/Shop-Now](https://github.com/Ayushsoni9125/Shop-Now)
+**Stack:** React · Node.js · Express · MongoDB · Socket.io
 
----
-
-### 🔹 [Connectify](https://github.com/Ayushsoni9125/Connectify)
-
-Real-time chat application designed for instant communication using WebSockets.
-
-**Tech Stack:** React.js · Node.js · Express.js · MongoDB · Socket.io
-
-**Key Features:** Real-time messaging · Socket.io communication · Authentication · Online/offline status · Persistent chat data · REST APIs · Responsive UI
-
-🔗 **Live Demo:** [connectify-ayush.vercel.app](https://connectify-ayush.vercel.app/login)
-
-🔗 **GitHub:** [github.com/Ayushsoni9125/Connectify](https://github.com/Ayushsoni9125/Connectify)
+🔗 [Live Demo](https://connectify-ayush.vercel.app/login) · [Repository](https://github.com/Ayushsoni9125/Connectify)
 
 ---
 
-## 📊 GitHub Analytics
+## ☁️ Cloud & Infrastructure
+
+### Terraform Multi-Environment Infrastructure
+Infrastructure-as-Code project for managing separate AWS environments using Terraform workspaces.
+
+**Focus:** AWS · Terraform · Infrastructure as Code · Environment Management
+
+🔗 [Repository](https://github.com/Ayushsoni9125/Terraform-MultiEnvironment-Infra)
+
+---
+
+## 📊 GitHub Activity
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Ayushsoni9125&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Ayush's GitHub Stats" height="165"/>
-
-<img src="https://streak-stats.demolab.com/?user=Ayushsoni9125&theme=tokyonight&hide_border=true" alt="Ayush's GitHub Streak" height="165"/>
-
+<img src="https://github-readme-stats.vercel.app/api?username=Ayushsoni9125&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
+<img src="https://streak-stats.demolab.com/?user=Ayushsoni9125&theme=tokyonight&hide_border=true" height="165" />
 </div>
 
 <br/>
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushsoni9125&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ayushsoni9125&theme=graywhite" alt="Ayush's GitHub Profile Details" width="95%"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Ayushsoni9125&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub Trophies"/>
-
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushsoni9125&layout=compact&theme=tokyonight&hide_border=true" height="165" />
 </div>
 
 ---
 
-## 🐍 Contribution Snake
+## 🏆 GitHub Trophies
 
 <div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=Ayushsoni9125&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub Trophies" />
+</div>
 
+---
+
+## 🐍 Contribution Graph
+
+<div align="center">
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake-dark.svg">
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake.svg">
-  <img
-    alt="GitHub Contribution Snake"
-    src="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake.svg">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake.svg">
+<img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/output/github-snake.svg">
 </picture>
-
 </div>
 
 ---
 
-<div align="center">
+## 📫 Let's Connect
 
-⭐️ From [Ayush Soni](https://github.com/Ayushsoni9125)
+<p align="left"><a href="https://www.linkedin.com/in/ayushsoni2005/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://github.com/Ayushsoni9125"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a></p>
 
-</div>
+> **Building backend systems, shipping full-stack products, and learning something new every day.** 🚀
