@@ -93,16 +93,20 @@ Real-time chat application using WebSockets for instant messaging, online/offlin
 ## 📊 GitHub Activity
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Ayushsoni9125&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
-<img src="https://streak-stats.demolab.com/?user=Ayushsoni9125&theme=tokyonight&hide_border=true" height="165" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=Ayushsoni9125&show_icons=true&hide_border=true&include_all_commits=true&count_private=false&rank_icon=github&theme=tokyonight" height="170" />
+
+<img src="https://streak-stats.demolab.com/?user=Ayushsoni9125&theme=tokyonight&hide_border=true" height="170" />
+
 </div>
 
 <br/>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushsoni9125&layout=compact&theme=tokyonight&hide_border=true" height="165" />
-</div>
 
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushsoni9125&layout=compact&hide_border=true&langs_count=8&count_private=false&theme=tokyonight" height="170" />
+
+</div>
 ---
 
 
