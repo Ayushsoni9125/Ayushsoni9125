@@ -118,7 +118,7 @@ Real-time chat application designed for instant communication using WebSockets.
 
 <div align="center">
 
-<img src="https://github-stats-extended.vercel.app/api?username=Ayushsoni9125&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Ayush's GitHub Stats" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Ayushsoni9125&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Ayush's GitHub Stats" height="165"/>
 
 <img src="https://streak-stats.demolab.com/?user=Ayushsoni9125&theme=tokyonight&hide_border=true" alt="Ayush's GitHub Streak" height="165"/>
 
@@ -128,7 +128,7 @@ Real-time chat application designed for instant communication using WebSockets.
 
 <div align="center">
 
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ayushsoni9125&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushsoni9125&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
 
 </div>
 
@@ -137,6 +137,14 @@ Real-time chat application designed for instant communication using WebSockets.
 <div align="center">
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ayushsoni9125&theme=graywhite" alt="Ayush's GitHub Profile Details" width="95%"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Ayushsoni9125&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub Trophies"/>
 
 </div>
 
