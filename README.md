@@ -15,7 +15,6 @@ I'm particularly interested in **backend engineering, distributed systems, datab
 - 🔐 **Backend systems** — REST APIs, authentication, authorization & API security
 - ⚡ **Real-time applications** — WebSockets, Socket.io & live communication
 - 🧩 **Distributed systems** — rate limiting, caching & scalable backend architecture
-- ☁️ **Cloud & DevOps** — AWS, Terraform & deployment workflows
 - 🤖 **AI-powered applications** — computer vision & intelligent web platforms
 
 ---
@@ -53,13 +52,6 @@ A backend-focused distributed rate-limiting system designed to protect APIs and 
 
 🔗 [Repository](https://github.com/Ayushsoni9125/Distributed-Rate-Limiter)
 
-### 🤖 Urban Intelligence Platform
-AI-powered urban intelligence prototype using computer vision to analyze transport video streams and identify road and traffic-related hazards.
-
-**Focus:** Computer Vision · YOLO · Python · AI · Urban Analytics
-
-🔗 [Repository](https://github.com/Ayushsoni9125/urban-intel-prototype)
-
 ### 🏛️ YojanaSaarthi
 AI-powered government scheme discovery platform that helps users find relevant government schemes through search, filtering and personalized access.
 
@@ -80,17 +72,6 @@ Real-time chat application using WebSockets for instant messaging, online/offlin
 **Stack:** React · Node.js · Express · MongoDB · Socket.io
 
 🔗 [Live Demo](https://connectify-ayush.vercel.app/login) · [Repository](https://github.com/Ayushsoni9125/Connectify)
-
----
-
-## ☁️ Cloud & Infrastructure
-
-### Terraform Multi-Environment Infrastructure
-Infrastructure-as-Code project for managing separate AWS environments using Terraform workspaces.
-
-**Focus:** AWS · Terraform · Infrastructure as Code · Environment Management
-
-🔗 [Repository](https://github.com/Ayushsoni9125/Terraform-MultiEnvironment-Infra)
 
 ---
 
