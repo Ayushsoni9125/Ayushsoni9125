@@ -40,39 +40,53 @@
 <td width="50%" valign="top">
 
 ### 🔐 Backend Engineering
-- REST APIs & API architecture
-- Authentication & authorization
-- JWT, RBAC & API security
-- PostgreSQL, MongoDB & Redis
+
+**Building secure, production-ready APIs & services.**
+
+<img src="https://img.shields.io/badge/REST_APIs-FF6B6B?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/JWT_%26_RBAC-8B5CF6?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
 
 </td>
 <td width="50%" valign="top">
 
 ### ⚡ Distributed & Real-Time
-- Distributed rate limiting
-- Redis-based systems
-- WebSockets & Socket.io
-- Scalable backend architecture
+
+**Designing systems that scale, communicate & stay fast.**
+
+<img src="https://img.shields.io/badge/Distributed_Systems-58A6FF?style=flat-square&logo=icloud&logoColor=white" />
+<img src="https://img.shields.io/badge/Rate_Limiting-F59E0B?style=flat-square&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/WebSockets-10B981?style=flat-square&logo=socketdotio&logoColor=white" />
+<img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" />
 
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
 ### 🎨 Full-Stack Development
-- React & Next.js
-- TypeScript
-- Tailwind CSS
-- End-to-end product development
+
+**Turning ideas into complete, responsive products.**
+
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
 
 </td>
 <td width="50%" valign="top">
 
 ### 🤖 AI-Powered Products
-- AI integrations
-- Computer vision
-- Intelligent web platforms
-- Automation & smart workflows
+
+**Adding intelligence, automation & vision to applications.**
+
+<img src="https://img.shields.io/badge/AI_Integrations-8B5CF6?style=flat-square&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Computer_Vision-EC4899?style=flat-square&logo=opencv&logoColor=white" />
+<img src="https://img.shields.io/badge/Automation-F97316?style=flat-square&logo=n8n&logoColor=white" />
+<img src="https://img.shields.io/badge/Smart_Workflows-22C55E?style=flat-square&logo=githubactions&logoColor=white" />
 
 </td>
 </tr>
