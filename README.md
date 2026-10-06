@@ -112,6 +112,16 @@ Real-time chat application using WebSockets for instant messaging, online/offlin
 
 ---
 
+## 📈 Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayushsoni9125&theme=tokyo-night&hide_border=true&area=true" alt="GitHub Contribution Activity Graph" width="95%" />
+
+</div>
+
+---
+
 ## 🐍 Contribution Graph
 
 <div align="center">
