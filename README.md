@@ -115,6 +115,10 @@ Real-time chat application using WebSockets for instant messaging, online/offlin
 ## 📈 Contribution Activity
 
 <!-- BEGIN ACTIVITY-GRAPH -->
+<picture>
+  <source media="(max-width: 767px)" srcset="activity-graph-mobile.svg">
+  <img src="activity-graph.svg" alt="Activity Graph" width="100%">
+</picture>
 <!-- END ACTIVITY-GRAPH -->
 ---
 
