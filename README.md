@@ -28,13 +28,13 @@ I'm particularly interested in **backend engineering, distributed systems, datab
 <div align="center">
 
 <a href="https://ayushsoni-me.vercel.app/">
-  <img src="https://raw.githubusercontent.com/Ayushsoni9125/portfolio/main/screenshots/02_desktop.jpg" alt="Ayush Soni Portfolio" width="900" />
+  <img src="https://raw.githubusercontent.com/Ayushsoni9125/Ayushsoni9125/main/portfolio-preview.svg" alt="Ayush Soni Portfolio — Windows XP Edition" width="900" />
 </a>
 
 <br/>
 
 <a href="https://ayushsoni-me.vercel.app/">
-  <img src="https://img.shields.io/badge/%E2%96%B6%20ENTER%20MY%20PORTFOLIO-0B5ED7?style=for-the-badge&logo=windows&logoColor=white" alt="Enter My Portfolio" />
+  <img src="https://img.shields.io/badge/%E2%96%B6%20LAUNCH%20PORTFOLIO-0B5ED7?style=for-the-badge&logo=windows&logoColor=white" alt="Launch Portfolio" />
 </a>
 
 <br/><br/>
