@@ -212,7 +212,7 @@ Real-time chat application with instant messaging, online/offline presence and p
 ## 📈 Contribution Activity
 
 <!-- BEGIN ACTIVITY-GRAPH -->
-<img src="activity-graph.gif?v=3" alt="3D animated GitHub Contribution Activity" width="100%">
+<img src="activity-graph-3d.svg?v=1" alt="Continuously moving 3D GitHub Contribution Activity" width="100%">
 <!-- END ACTIVITY-GRAPH -->
 
 ---
