@@ -14,6 +14,7 @@ permissions:
 jobs:
   activity-graph:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,63 +22,99 @@ jobs:
       - name: Generate contribution graph
         uses: alexcerezo/activity-graph@v1
 
-      - name: Install Playwright
+      - name: Install animation tools
         run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
           npm init -y
           npm install --no-save playwright@1.55.0
           npx playwright install --with-deps chromium
 
-      - name: Render continuous animation frames
+      - name: Render 3D motion frames
         run: |
           mkdir -p /tmp/activity-frames
+
           cat > /tmp/render-activity.mjs <<'EOF'
           import fs from "node:fs";
           import { chromium } from "playwright";
 
           const svg = fs.readFileSync("activity-graph.svg", "utf8");
-          const animatedSvg = svg.replace(
-            "</style>",
-            `
-              @keyframes continuousPulse {
-                0%, 100% { opacity: 0.55; }
-                50% { opacity: 1; }
-              }
-              .day {
-                opacity: 0.55 !important;
-                animation: continuousPulse 1.8s ease-in-out infinite !important;
-              }
-            </style>`
-          );
 
           const browser = await chromium.launch({ headless: true });
           const page = await browser.newPage({
-            viewport: { width: 845, height: 135 },
+            viewport: { width: 845, height: 170 },
             deviceScaleFactor: 2
           });
 
-          await page.emulateMedia({ colorScheme: "dark", reducedMotion: "no-preference" });
+          await page.emulateMedia({
+            colorScheme: "dark",
+            reducedMotion: "no-preference"
+          });
+
           await page.setContent(
             `<!doctype html>
             <html>
               <head>
                 <style>
-                  html, body { margin: 0; padding: 0; background: #0d1117; }
-                  svg { display: block; }
+                  html, body {
+                    margin: 0;
+                    padding: 0;
+                    width: 845px;
+                    height: 170px;
+                    overflow: hidden;
+                    background: #0d1117;
+                  }
+
+                  .stage {
+                    width: 845px;
+                    height: 170px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    perspective: 1200px;
+                    perspective-origin: 50% 50%;
+                  }
+
+                  .graph {
+                    width: 845px;
+                    transform-style: preserve-3d;
+                    transform-origin: center center;
+                  }
+
+                  svg {
+                    display: block;
+                    width: 845px;
+                    height: 135px;
+                  }
                 </style>
               </head>
-              <body>${animatedSvg}</body>
+              <body>
+                <div class="stage">
+                  <div class="graph">\${svg}</div>
+                </div>
+              </body>
             </html>`,
             { waitUntil: "load" }
           );
 
-          await page.waitForTimeout(100);
+          const frames = 40;
 
-          const frames = 24;
           for (let i = 0; i < frames; i++) {
-            await page.waitForTimeout(75);
+            const t = i / frames;
+            const angle = Math.sin(t * Math.PI * 2) * 9;
+            const tilt = Math.cos(t * Math.PI * 2) * 2.5;
+            const scale = 1 + Math.abs(Math.sin(t * Math.PI * 2)) * 0.025;
+
+            await page.locator(".graph").evaluate(
+              (el, values) => {
+                el.style.transform =
+                  `rotateY(\${values.angle}deg) rotateX(\${values.tilt}deg) scale(\${values.scale})`;
+              },
+              { angle, tilt, scale }
+            );
+
             await page.screenshot({
-              path: `/tmp/activity-frames/frame-${String(i).padStart(2, "0")}.png`,
-              animations: "allow"
+              path: `/tmp/activity-frames/frame-\${String(i).padStart(2, "0")}.png`
             });
           }
 
@@ -86,9 +123,9 @@ jobs:
 
           node /tmp/render-activity.mjs
 
-      - name: Build looping GIF
+      - name: Build continuously looping 3D GIF
         run: |
-          ffmpeg -y             -framerate 8             -i /tmp/activity-frames/frame-%02d.png             -vf "fps=8,scale=1690:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128[p];[s1][p]paletteuse=dither=bayer"             -loop 0             activity-graph.gif
+          ffmpeg -y             -framerate 10             -i /tmp/activity-frames/frame-%02d.png             -vf "scale=1690:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128[p];[s1][p]paletteuse=dither=bayer"             -loop 0             activity-graph.gif
 
       - name: Commit generated assets
         run: |
@@ -96,9 +133,10 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add activity-graph.svg activity-graph-mobile.svg activity-graph.gif
+
           if git diff --cached --quiet; then
             echo "No activity graph changes."
           else
-            git commit -m "chore: update activity graph"
+            git commit -m "chore: update 3D activity graph"
             git push
           fi
