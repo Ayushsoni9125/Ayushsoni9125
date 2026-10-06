@@ -20,3 +20,85 @@ jobs:
 
       - name: Generate contribution graph
         uses: alexcerezo/activity-graph@v1
+
+      - name: Install Playwright
+        run: |
+          npm init -y
+          npm install --no-save playwright@1.55.0
+          npx playwright install --with-deps chromium
+
+      - name: Render continuous animation frames
+        run: |
+          mkdir -p /tmp/activity-frames
+          cat > /tmp/render-activity.mjs <<'EOF'
+          import fs from "node:fs";
+          import { chromium } from "playwright";
+
+          const svg = fs.readFileSync("activity-graph.svg", "utf8");
+          const animatedSvg = svg.replace(
+            "</style>",
+            `
+              @keyframes continuousPulse {
+                0%, 100% { opacity: 0.55; }
+                50% { opacity: 1; }
+              }
+              .day {
+                opacity: 0.55 !important;
+                animation: continuousPulse 1.8s ease-in-out infinite !important;
+              }
+            </style>`
+          );
+
+          const browser = await chromium.launch({ headless: true });
+          const page = await browser.newPage({
+            viewport: { width: 845, height: 135 },
+            deviceScaleFactor: 2
+          });
+
+          await page.emulateMedia({ colorScheme: "dark", reducedMotion: "no-preference" });
+          await page.setContent(
+            `<!doctype html>
+            <html>
+              <head>
+                <style>
+                  html, body { margin: 0; padding: 0; background: #0d1117; }
+                  svg { display: block; }
+                </style>
+              </head>
+              <body>${animatedSvg}</body>
+            </html>`,
+            { waitUntil: "load" }
+          );
+
+          await page.waitForTimeout(100);
+
+          const frames = 24;
+          for (let i = 0; i < frames; i++) {
+            await page.waitForTimeout(75);
+            await page.screenshot({
+              path: `/tmp/activity-frames/frame-${String(i).padStart(2, "0")}.png`,
+              animations: "allow"
+            });
+          }
+
+          await browser.close();
+          EOF
+
+          node /tmp/render-activity.mjs
+
+      - name: Build looping GIF
+        run: |
+          ffmpeg -y             -framerate 8             -i /tmp/activity-frames/frame-%02d.png             -vf "fps=8,scale=1690:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128[p];[s1][p]paletteuse=dither=bayer"             -loop 0             activity-graph.gif
+
+      - name: Commit generated assets
+        run: |
+          rm -f package.json package-lock.json
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add activity-graph.svg activity-graph-mobile.svg activity-graph.gif
+          if git diff --cached --quiet; then
+            echo "No activity graph changes."
+          else
+            git commit -m "chore: update activity graph"
+            git push
+          fi
