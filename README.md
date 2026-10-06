@@ -162,6 +162,20 @@ Real-time chat application with instant messaging, online/offline presence and p
 
 ---
 
+## 🌐 GitHub in 3D
+
+<div align="center">
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contribution Graph" width="100%" />
+
+<br/>
+
+<sub>My contribution history visualized as a 3D landscape — generated automatically from GitHub activity.</sub>
+
+</div>
+
+---
+
 ## 📊 GitHub in Motion
 
 <div align="center">
