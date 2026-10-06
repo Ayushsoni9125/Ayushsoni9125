@@ -101,11 +101,6 @@ Real-time chat application using WebSockets for instant messaging, online/offlin
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Ayushsoni9125&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub Trophies" />
-</div>
 
 ---
 
