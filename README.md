@@ -1,4 +1,8 @@
-# Hi, I'm Ayush Soni 👋
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Ayush+Soni+%F0%9F%91%8B;Backend+%26+Full-Stack+Developer;Building+Scalable+Web+Systems;Node.js+%7C+TypeScript+%7C+React;Backend+%7C+Distributed+Systems" alt="Typing SVG" />
+
+</div>
 
 ### Backend & Full-Stack Developer
 
