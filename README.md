@@ -116,18 +116,6 @@
 
 ---
 
-## 🏗️ System Architecture
-
-<div align="center">
-
-<img src="./rate-limiter-architecture.svg?v=1" alt="3D Distributed Rate Limiter Architecture" width="100%" />
-
-<sub>A visual representation of how my Distributed Rate Limiter handles requests across API instances using shared Redis state.</sub>
-
-</div>
-
----
-
 ## 🚀 Featured Projects
 
 <table>
